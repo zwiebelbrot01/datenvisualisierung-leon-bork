@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Datensatz</title>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/gmynd.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .title {
+            position: absolute;
+
+            font-family: 'Poppins', sans-serif;
+            font-size: 44px;
+            font-weight: 600;
+            white-space: nowrap;
+            color: black; /* Set title color to black */
+        }
+        #renderer {
+            background-color: white; /* Set background to white */
+            width: 100%; /* Make sure it covers the full width */
+            height: 100vh; /* Cover the full height of the viewport */
+            position: relative; /* Position relative for absolute positioning of children */
+        }
+     
+    </style>
+</head>
+
+<body>
+    <div id="renderer"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
